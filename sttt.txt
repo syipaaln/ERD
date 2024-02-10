@@ -1,0 +1,30 @@
+<video width="640" height="360" controls>
+  <source src="{{ asset('/image/'.$item->foto)}}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+$request->validate([
+                'foto' => 'required|file|mimes:mp4,gif|max:10240',
+            ]);
+
+https://medium.com/@revalinaf180/data-relational-dan-fitur-upload-foto-di-laravel-9-crud-e384c908e6d7
+https://www.sinauo.com/2021/08/tutorial-crud-laravel-8-simple-dan.html
+https://dev.to/yudhasdev/tutorial-laravel-1-membuat-project-baru-161g
+https://www.sobatambisius.com/2021/11/cara-mengupload-website-ke-github.html
+https://bahasaweb.com/membuat-hak-akses-user-di-laravel/
+https://maseduproject.com/tutorial-laravel-10-part-13-relasi-antar-tabel-one-to-many/
+https://www.sahretech.com/2020/11/cara-menampilkan-data-di-laravel-dengan.html
+https://www.itsolutionstuff.com/post/laravel-10-multi-auth-create-multiple-authentication-in-laravelexample.html
+
+composer global require laravel/installer
+laravel new nama_projek
+
+composer create-project laravel/laravel nama_projek
+php artisan migrate
+composer require laravel/ui
+php artisan ui:auth
+php artisan ui bootstrap
+npm install
+npm run dev
+npm run build
+php artisan serve

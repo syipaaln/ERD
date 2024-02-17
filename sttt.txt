@@ -318,3 +318,11 @@ public function run(): void
             'name' => 'moiz',
         ]);
     }
+
+<div class="col-md-12">
+                                    <div class="flex items-center justify-center h-48 mb-3">
+                                        <video id="preview-video" class="object-cover object-center w-full" controls style="max-height: 450px;">
+                                            <source src="" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
